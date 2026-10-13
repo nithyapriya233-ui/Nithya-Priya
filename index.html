@@ -4,6 +4,37 @@
   <head>
     <script type="application/ld+json">
 {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Wedding Event",
+  "description": "Celebrate your special day with beautiful wedding decorations, elegant venues, and unforgettable memories.",
+  "image": "https://images.unsplash.com/photo-1519741497674-611481863552",
+  "startDate": "2026-10-12",
+  "endDate": "2026-10-14",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+  "location": [{
+    "@type": "VirtualLocation",
+    "url": "/wedding-event/live-stream"
+  },{		
+    "@type": "Place",
+    "name": "Wedding Palace",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "78th street",
+      "addressLocality": "Chennai",
+      "postalCode": "600008",
+      "addressCountry": "IN"
+    }
+  }],
+  "performer": {
+    "@type": "Person",
+    "name": "Priya"
+  }
+}
+</script>
+    <script type="application/ld+json">
+{
   "@context": "https://schema.org/", 
   "@type": "BreadcrumbList", 
   "itemListElement": [{
